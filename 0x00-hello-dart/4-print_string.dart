@@ -1,5 +1,6 @@
 void main() {
   String str = "Holberton School";
-    print(str*3);
-    print("Holberton\n");
+  String s = str.substring(0,9);
+  print(str*3);
+  print(s);
 }
